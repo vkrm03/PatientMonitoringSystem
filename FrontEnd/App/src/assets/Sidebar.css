@@ -1,0 +1,51 @@
+.sidebar {
+    width: 250px;
+    height: 1000px;
+    position:fixed;
+    background-color: #f4f4f4;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.dash {
+    margin-top: 20px;
+    text-align: center;
+}
+.admin-profile {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.admin-icon img {
+    width: 100px;
+    height: 100px;
+    background-color: #ccc;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    flex-grow: 1;
+}
+
+.sidebar ul li {
+    margin: 20px 0;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.sidebar ul li a:hover {
+    background-color: #ddd;
+}

@@ -1,0 +1,23 @@
+.marks-table {
+    width: 60%;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+.marks-table th, .marks-table td {
+    border: 1px solid #ddd;
+    padding: 15px;
+}
+
+.marks-table th {
+    background-color: #f4f4f4;
+    text-align: left;
+}
+
+.marks-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.marks-table tr:hover {
+    background-color: #ddd;
+}

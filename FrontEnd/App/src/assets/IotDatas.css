@@ -1,0 +1,56 @@
+.iot-datas-container {
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sensor-reading {
+    background-color: #fff;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .sensor-reading div {
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .sensor-reading div:last-child {
+    margin-bottom: 0;
+  }
+
+  .btn {
+    background-color: #4CAF50; /* Green background */
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 10px 20px;/* Add some padding */
+    text-align: center; /* Center the text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Make the button inline */
+    font-size: 16px; /* Increase font size */
+    margin: 10px 0; /* Add some margin */
+    cursor: pointer; /* Add a pointer cursor on hover */
+    border-radius: 4px; /* Add rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+  .btn:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  
+  

@@ -1,0 +1,39 @@
+.not-found {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; 
+}
+
+.not-found h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+    color: #343a40;
+}
+
+.not-found p {
+    font-size: 1.5em;
+    color: #6c757d;
+}
+
+
+.back-btn {
+    background-color: #007bff;
+    color: white;           
+    border: none;            
+    padding: 10px 20px;
+    border-radius: 5px;   
+    font-size: 16px;     
+    cursor: pointer;       
+    transition: background-color 0.3s ease; 
+    display: inline-flex; 
+    align-items: center; 
+  }
+  
+.back-btn:hover {
+    background-color: #0056b3;
+  }

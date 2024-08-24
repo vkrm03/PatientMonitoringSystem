@@ -1,0 +1,180 @@
+/* NavBar.css */
+.nav {
+  background: linear-gradient(135deg, #007BFF, #0056b3); /* Blue gradient background */
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border-bottom: 2px solid #0056b3;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  height: 60px;
+  z-index: 1000;
+}
+
+nav {
+  position: absolute;
+  right: 155px;
+}
+
+.nav-logo {
+  color: #fff;
+  text-decoration: none; /* Remove underline from the logo link */
+  display: flex;
+  align-items: center;
+}
+
+.nav-logo i {
+  margin-right: 0.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem; 
+  cursor: pointer;
+}
+
+h2 i {
+  text-decoration: none;
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 1rem;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 30px;
+  background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent white background */
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+  color: #fff;
+}
+
+.nav-btn {
+  position: absolute;
+  right: 40px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+  padding: 0.7rem 1.2rem;
+  border-radius: 30px;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.nav-btn-link {
+  text-decoration: none; /* Remove underline from the button link */
+  color: white;
+}
+
+.nav-btn:hover {
+  background-color: #218838;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+@media screen and (min-width: 600px) and (max-width: 800px) {
+  .nav {
+      height: 40px;
+  }
+  h2 {
+      font-size: 1.2em;
+  }
+  nav {
+      right: 120px;
+  }
+  h2 i {
+      font-size: 1em;
+  }
+  nav ul li a {
+      font-size: 0.8em;
+      padding: 0.3rem 0.8rem;
+      border-radius: 20px;
+  }
+  .nav-btn {
+      right: 20px;
+      font-size: 0.8rem;
+      padding: 0.3rem 0.7rem;
+  }
+}
+
+@media screen and (min-width: 450px) and (max-width: 600px) {
+  .nav {
+      height: 30px;
+  }
+  h2 {
+      font-size: 1em;
+  }
+  nav {
+      right: 100px;
+  }
+  h2 i {
+      font-size: 1em;
+  }
+  nav ul li a {
+      font-size: 0.6em;
+      padding: 0.3rem 0.8rem;
+      border-radius: 20px;
+  }
+  .nav-btn {
+      right: 20px;
+      font-size: 0.6rem;
+      padding: 0.4rem 0.6rem;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 450px) {
+  .bar {
+      display: inline;
+  }
+  .nav {
+      height: 30px;
+  }
+  h2 {
+      font-size: 1em;
+  }
+  nav {
+      right: 65px;
+  }
+  nav ul {
+      margin-bottom: 5px;
+      gap: 0.4em;
+  }
+  h2 i {
+      font-size: 1em;
+  }
+  nav ul li a {
+      font-size: 0.4em;
+      padding: 0.3rem 0.8rem;
+      border-radius: 20px;
+  }
+  .nav-btn {
+      right: 15px;
+      font-size: 0.4rem;
+      padding: 0.3rem 0.5rem;
+  }
+}
