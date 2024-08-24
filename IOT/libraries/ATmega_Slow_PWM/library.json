@@ -1,0 +1,30 @@
+{
+  "name": "ATmega_Slow_PWM",
+  "version": "1.0.0",
+  "keywords": "timing, device, control, pwm, interrupt, hardware, isr, isr-based, hardware-timer, mission-critical, accuracy, non-blocking, atmega164, atmega324, atmega644, atmega1284, atmega16, atmega32, atmega8535, mightycore",
+  "description": "This library enables you to use ISR-based PWM channels on AVR ATmega164, ATmega324, ATmega644, ATmega1284 with MCUdude MightyCore, to create and output PWM any GPIO pin. It now supports 16 ISR-based PWM channels, while consuming only 1 Hardware Timer. PWM channel interval can be very long (ulong microsecs / millisecs). The most important feature is they're ISR-based PWM channels, supporting lower PWM frequencies with suitable accuracy. Their executions are not blocked by bad-behaving functions or tasks. This important feature is absolutely necessary for mission-critical tasks. These ISR-based PWMs, still work even if other software functions are blocking. Moreover, they are much more precise (certainly depending on clock frequency accuracy) than other software-based PWM using millis() or micros(). That's necessary if you need to control devices requiring high precision. Now you can change the PWM settings on-the-fly",
+  "authors":
+  {
+    "name":  "Khoi Hoang",
+    "url":   "https://github.com/khoih-prog",
+    "maintainer": true
+  },
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/khoih-prog/ATmega_Slow_PWM.git"
+  },
+  "homepage": "https://github.com/khoih-prog/ATmega_Slow_PWM",
+  "export": {
+    "exclude": [
+      "linux",
+      "extras",
+      "tests"
+    ]
+  },
+  "license": "MIT",
+  "frameworks": "*",
+  "platforms": "atmelavr",
+  "examples": "examples/*/*/*.ino",
+  "headers": ["ATmega_Slow_PWM.h", "ATmega_Slow_PWM.hpp"]
+}
