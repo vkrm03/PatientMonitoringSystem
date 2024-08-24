@@ -58,6 +58,7 @@ bash
 Copy code
 npm start
 Arduino Setup:
+![IotSetUp](/main/imgs/img.jpg)
 
 Upload the provided Arduino code to the Arduino R3 board.
 Connect the pulse oximetry sensor, LCD, and panic button according to the circuit diagram provided in the repository.
