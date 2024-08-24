@@ -15,6 +15,10 @@ Pulse Oximetry Sensor: Measures heart rate and SpO2 levels.
 LCD Display: Shows real-time sensor data.
 Panic Button: Sends emergency alerts.
 Web Application
+
+
+![WebAppFlow](/imgs/PresentationWebPage.png)
+
 MongoDB: Database to store patient data, prescriptions, and user information.
 Express.js: Backend framework for building the server.
 React.js: Frontend library for building the user interface.
@@ -27,6 +31,9 @@ The caretaker logs in to the web app and inputs the patient's glucose levels.
 The doctor receives this data, analyzes it, and prescribes the necessary medications.
 The prescribed medication details are emailed to the caretaker.
 If abnormal health data is detected, the system sends an alert to the caretaker.
+
+![RealTimeMonitor](/imgs/RealTimeMonitor.png)
+
 Installation & Setup
 Clone the repository:
 
@@ -58,6 +65,8 @@ bash
 Copy code
 npm start
 Arduino Setup:
+
+
 ![IotSetUp](/imgs/img.jpg)
 
 Upload the provided Arduino code to the Arduino R3 board.
