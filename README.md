@@ -17,7 +17,7 @@ Panic Button: Sends emergency alerts.
 Web Application
 
 
-![WebAppFlow](/imgs/PresentationWebPage.png)
+![WebAppFlow](/imgs/PresentaionWebPage.png)
 
 MongoDB: Database to store patient data, prescriptions, and user information.
 Express.js: Backend framework for building the server.
